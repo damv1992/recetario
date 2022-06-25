@@ -1,0 +1,1271 @@
+CRITICAL - 2022-05-03 16:11:22 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Administracion.php(24): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Administracion->pagina()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:12:31 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Administracion.php(24): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Administracion->pagina()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:12:34 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Administracion.php(15): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Administracion->index()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:12:38 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Administracion.php(15): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Administracion->index()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:12:43 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Administracion.php(18): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Administracion->index()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:14:30 --> Access to undeclared static property: App\Controllers\Home::$this
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Administracion->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 16:19:02 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Genero.php(29): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Genero->index()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genero))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:19:41 --> Call to a member function orderby() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 16:19:41 --> Call to a member function orderby() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 16:19:45 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Administracion.php(35): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Administracion->pagina()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:19:59 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Administracion.php(35): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Administracion->pagina()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:20:00 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Administracion.php(35): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Administracion->pagina()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:20:04 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Administracion.php(35): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Administracion->pagina()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:20:44 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Administracion.php(35): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Administracion->pagina()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:20:47 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Administracion.php(26): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Administracion->index()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:20:50 --> Call to a member function orderby() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 16:21:34 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Administracion.php(26): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Administracion->index()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:26:10 --> Call to undefined method App\Controllers\Pago::datosPrincipales()
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Pago->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pago))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 16:33:00 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('publicidad')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('publicidad')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:33:15 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('publicidad')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('publicidad')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:34:24 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('publicidad')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('publicidad')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:34:37 --> syntax error, unexpected '0' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('publicidad')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('publicidad')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 16:39:21 --> Call to a member function orderby() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-03 17:32:38 --> mysqli_sql_exception: Duplicate entry '4-1' for key 'PRIMARY' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ge...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Producto.php(327): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Producto->guardarGenero()
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#10 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 17:34:30 --> mysqli_sql_exception: Duplicate entry '4-1' for key 'PRIMARY' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ge...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Producto.php(327): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Producto->guardarGenero()
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#10 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-03 18:19:22 --> Cannot use object of type App\Models\GenerosModel as array
+#0 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('alquiler', Array, true)
+#3 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Home.php(68): view('alquiler', Array)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->alquiler()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-03 18:19:27 --> Cannot use object of type App\Models\GenerosModel as array
+#0 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('alquiler', Array, true)
+#3 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Home.php(68): view('alquiler', Array)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->alquiler()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-03 18:19:28 --> Cannot use object of type App\Models\GenerosModel as array
+#0 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('alquiler', Array, true)
+#3 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Home.php(68): view('alquiler', Array)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->alquiler()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-03 18:26:15 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('alquiler', Array, true)
+#2 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Home.php(68): view('alquiler', Array)
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->alquiler()
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 18:32:50 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:34:11 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Views\alquiler.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('alquiler', Array, true)
+#4 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Alquiler.php(353): view('alquiler', Array)
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 18:34:12 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Views\alquiler.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('alquiler', Array, true)
+#4 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Alquiler.php(353): view('alquiler', Array)
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 18:34:13 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Views\alquiler.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('alquiler', Array, true)
+#4 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Alquiler.php(353): view('alquiler', Array)
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 18:54:58 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:56:56 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:56:56 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:56:57 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:56:57 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:56:58 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:56:58 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:56:58 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:56:59 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:56:59 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:57:00 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:57:00 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:57:00 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:57:01 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:57:01 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:57:01 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:57:02 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:57:02 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:57:02 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:57:20 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:57:20 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:57:21 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:57:21 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 18:57:21 --> Call to a member function join() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Alquiler->detalle('1')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alquiler))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 19:06:00 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Views\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Home.php(58): view('index', Array)
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 19:08:26 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Home.php(62): view('index', Array)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-03 19:08:27 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Home.php(62): view('index', Array)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-03 19:08:27 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Home.php(62): view('index', Array)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-03 19:08:28 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Home.php(62): view('index', Array)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-03 19:08:28 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Home.php(62): view('index', Array)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-03 19:08:28 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Home.php(62): view('index', Array)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-03 19:08:28 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Home.php(62): view('index', Array)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-03 19:19:37 --> mysqli_sql_exception: Unknown column 'generosalquiler.Producto' in 'where clause' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Producto.php(354): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Producto->detalle('1')
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-03 19:19:40 --> mysqli_sql_exception: Unknown column 'generosalquiler.Producto' in 'where clause' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Producto.php(354): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Producto->detalle('1')
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-03 19:19:40 --> mysqli_sql_exception: Unknown column 'generosalquiler.Producto' in 'where clause' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Producto.php(354): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Producto->detalle('1')
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-03 19:25:19 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(16): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 19:25:28 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(16): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 19:26:20 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(16): App\Controllers\Home->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 19:28:15 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Views\catalogo.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Common.php(1217): CodeIgniter\View\View->render('catalogo', Array, true)
+#4 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(30): view('catalogo', Array)
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 19:29:13 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 19:29:14 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 19:29:14 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 19:29:14 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 19:29:15 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 19:29:15 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 19:29:15 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 19:29:15 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 19:29:15 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 19:29:15 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 19:29:15 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->index()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 20:09:08 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->cantidadFiltradoProductos(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:25:55 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, '', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:26:19 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, '', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:28:15 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, '', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:28:17 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, '', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:28:25 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, '', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:28:39 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, '', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:31:07 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:31:10 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:31:15 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:31:19 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:31:44 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:31:53 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:35:44 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:36:12 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:36:13 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:37:31 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:37:48 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:37:49 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:37:50 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:38:20 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:40:21 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:40:22 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:40:23 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:40:23 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:40:53 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:40:54 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:40:54 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:40:55 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:40:55 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:40:56 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:40:56 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:41:20 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:41:34 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:41:35 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:41:48 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:41:49 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:42:48 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:43:28 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos('', NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:43:36 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos(NULL, NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:43:43 --> Too few arguments to function App\Controllers\Catalogo::cantidadFiltradoProductos(), 6 passed in C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php on line 44 and exactly 8 expected
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(44): App\Controllers\Catalogo->cantidadFiltradoProductos(NULL, NULL, NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:51:12 --> syntax error, unexpected 'foreach' (T_FOREACH)
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('catalogo')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('catalogo')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:55:42 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos('1', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:55:43 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos('1', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:56:27 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos('1', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:56:28 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos('3', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:56:30 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos('2', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:57:04 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos('1', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:57:05 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos('3', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:57:05 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos('2', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 20:57:06 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos('3', NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 21:04:09 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos(Array, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 21:04:17 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos(Array, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 21:04:33 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos(Array, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 21:05:20 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos(Array, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 21:06:11 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos(Array, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 21:06:17 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(45): App\Controllers\Catalogo->generarBotonesFiltroProductos(Array, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-03 21:08:46 --> mysqli_sql_exception: Illegal parameter data types bigint and row for operation '=' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(110): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(49): App\Controllers\Catalogo->generarBotonesFiltroProductos(Array, Array, NULL)
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#10 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-03 21:08:58 --> mysqli_sql_exception: Illegal parameter data types bigint and row for operation '=' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(110): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(49): App\Controllers\Catalogo->generarBotonesFiltroProductos(Array, Array, NULL)
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#10 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-03 21:45:27 --> Redefinition of parameter $precioMax
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-03 21:46:17 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(47): App\Controllers\Catalogo->cantidadFiltradoProductos('', '100', '400', NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 21:46:56 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(47): App\Controllers\Catalogo->cantidadFiltradoProductos('', '100', '400', NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 21:47:39 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(47): App\Controllers\Catalogo->cantidadFiltradoProductos('', '100', '400', NULL, NULL, NULL)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-03 22:12:27 --> mysqli_sql_exception: Unknown column 'generosalquiler.Producto' in 'where clause' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Producto.php(354): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Producto->detalle('1')
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-03 22:25:34 --> mysqli_sql_exception: Unknown column 'generosalquiler.Producto' in 'where clause' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Producto.php(354): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Producto->detalle('2')
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-03 22:25:55 --> mysqli_sql_exception: Unknown column 'generosalquiler.Producto' in 'where clause' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Producto.php(354): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Producto->detalle('1')
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-03 22:28:01 --> mysqli_sql_exception: Unknown column 'generosalquiler.Genero' in 'on clause' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Producto.php(354): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Producto->detalle('1')
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-03 22:28:02 --> mysqli_sql_exception: Unknown column 'generosalquiler.Genero' in 'on clause' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Producto.php(354): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Producto->detalle('1')
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-03 22:28:03 --> mysqli_sql_exception: Unknown column 'generosalquiler.Genero' in 'on clause' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Producto.php(354): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Producto->detalle('1')
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-03 22:28:04 --> mysqli_sql_exception: Unknown column 'generosalquiler.Genero' in 'on clause' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Producto.php(354): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Producto->detalle('1')
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-03 22:28:10 --> mysqli_sql_exception: Unknown column 'generosalquiler.Genero' in 'on clause' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\independiente\gameshops4\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\independiente\gameshops4\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Producto.php(354): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Producto->detalle('1')
+#8 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#9 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-03 22:45:26 --> mysqli_sql_exception: Unknown column 'generos.NombreProducto' in 'order clause' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(149): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(52): App\Controllers\Catalogo->resultadoFiltroProductos('', '0', '500', '', '', '', 'generos.NombreP...', NULL, '1')
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 22:45:26 --> Return value of CodeIgniter\Database\MySQLi\Result::getNumRows() must be of the type int, null returned
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(151): CodeIgniter\Database\MySQLi\Result->getNumRows()
+#1 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(52): App\Controllers\Catalogo->resultadoFiltroProductos('', '0', '500', '', '', '', 'generos.NombreP...', NULL, '1')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-03 22:45:30 --> mysqli_sql_exception: Unknown column 'generos.NombreProducto' in 'order clause' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(149): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(52): App\Controllers\Catalogo->resultadoFiltroProductos('', '0', '500', '', '', '', 'generos.NombreP...', NULL, '1')
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 22:45:30 --> Return value of CodeIgniter\Database\MySQLi\Result::getNumRows() must be of the type int, null returned
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(151): CodeIgniter\Database\MySQLi\Result->getNumRows()
+#1 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(52): App\Controllers\Catalogo->resultadoFiltroProductos('', '0', '500', '', '', '', 'generos.NombreP...', NULL, '1')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-03 22:45:38 --> mysqli_sql_exception: Unknown column 'generos.NombreProducto' in 'order clause' in C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\independiente\gameshops4\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(149): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(52): App\Controllers\Catalogo->resultadoFiltroProductos('', '0', '500', '', '', '', 'generos.NombreP...', NULL, '1')
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#6 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#7 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 22:45:38 --> Return value of CodeIgniter\Database\MySQLi\Result::getNumRows() must be of the type int, null returned
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(151): CodeIgniter\Database\MySQLi\Result->getNumRows()
+#1 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(52): App\Controllers\Catalogo->resultadoFiltroProductos('', '0', '500', '', '', '', 'generos.NombreP...', NULL, '1')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Catalogo->filtrarProductos()
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-03 22:51:05 --> Declaration of App\Controllers\Catalogo::index($id) should be compatible with App\Controllers\Home::index()
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Router\Router.php(562): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('catalogo/1')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('catalogo/1')
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 22:56:18 --> Declaration of App\Controllers\Catalogo::index($id) should be compatible with App\Controllers\Home::index()
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Catalogo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\independiente\gameshops4\system\Router\Router.php(562): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\independiente\gameshops4\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('catalogo/$3')
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('catalogo/$3')
+#4 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

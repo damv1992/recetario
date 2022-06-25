@@ -1,0 +1,14 @@
+CRITICAL - 2022-04-22 13:56:36 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Social.php(33): App\Controllers\Social->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Social->index()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Social))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-22 13:57:04 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\independiente\gameshops4\app\Controllers\Social.php(43): App\Controllers\Social->datosPrincipales()
+#1 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(936): App\Controllers\Social->index()
+#2 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Social))
+#3 C:\xampp\htdocs\independiente\gameshops4\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\independiente\gameshops4\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
