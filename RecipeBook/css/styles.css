@@ -118,6 +118,16 @@ table {
   font-weight: bold;
   margin-top: 6px;
 }
+.category-item2 {
+  border: 2px;
+  border-color: #666;
+  border-radius: 2.5px;
+  border-style: solid !important;
+  background-color: #666;
+  color: #f9f9f9;
+  font-weight: bold;
+  margin-top: 6px;
+}
 .category-item i {
   padding-top: 6px;
   padding-bottom: 3px;

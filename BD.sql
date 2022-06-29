@@ -24,7 +24,7 @@ CREATE TABLE Recetas (
     Dificultad float,
     Porciones int NOT NULL,
     Categoria bigint NOT NULL,
-    PRIMARY KEY (IdCategoria),
+    PRIMARY KEY (IdReceta),
     FOREIGN KEY (Categoria) REFERENCES Categorias (IdCategoria)
 );
 CREATE TABLE Ingredientes (
@@ -40,6 +40,7 @@ CREATE TABLE Preparaciones (
     IdPreparacion bigint NOT NULL,
     PasoNumero int NOT NULL,
     DescripcionPaso varchar(200) NOT NULL,
+    Receta bigint NOT NULL,
     PRIMARY KEY (IdPreparacion),
     FOREIGN KEY (Receta) REFERENCES Recetas (IdReceta)
 );
