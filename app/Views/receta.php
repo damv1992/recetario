@@ -7,15 +7,14 @@
     $generos = new GenerosModel();
     $plataformass = new PlataformaModel();*/
 ?>
-<?= $this->extend('plantilla') ?>
+<?= $this->extend('plantilla/index') ?>
 
 <?= $this->section('estilos') ?>
     <title><?=$configuracion['NombrePagina'].' | '.$titulo?></title>
 <?= $this->endSection() ?>
 
 <?= $this->section('contenido') ?>
-    <!-- Recipe Section
-    =================== -->
+    <!-- Recipe Section -->
     <section id="recipe">
         <div class="container">
             <div class="row">
@@ -28,7 +27,7 @@
                 <div class="col-12">
                     <!-- Picture -->
                     <div class="col-md-8 pull-left wow swing">
-                        <img src="<?=$receta['FotoReceta']?>" alt="<?=$receta['NombreReceta']?>" class="recipe-picture" />
+                        <img src="<?=base_url().$receta['FotoReceta']?>" alt="<?=$receta['NombreReceta']?>" class="recipe-picture" />
                     </div>
                     <!-- Info -->
                     <div class="col-md-4 pull-right wow lightSpeedIn">
@@ -104,7 +103,4 @@
             </div>
         </div>
     </section>
-<?= $this->endSection() ?>
-
-<?= $this->section('scripts') ?>
 <?= $this->endSection() ?>

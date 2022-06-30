@@ -1,4 +1,4 @@
-<?= $this->extend('plantilla') ?>
+<?= $this->extend('plantilla/index') ?>
 
 <?= $this->section('estilos') ?>
     <title><?=$configuracion['NombrePagina'].' | '.$titulo?></title>
@@ -8,6 +8,17 @@
     <!-- Recipes Categories -->
     <section id="categories">
         <div class="container botonesFiltroRecetas"></div>
+
+        <div class="form-group"></div>
+        
+        <div class="container">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-search"></i></span>
+                </div>
+                <input class="form-control txtBusqueda" onkeyup="filtrarRecetas();" placeholder="Buscar...">
+            </div>
+        </div>
     </section>
 
     <!-- Recipes Items -->

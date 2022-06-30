@@ -12,8 +12,6 @@ class Home extends BaseController {
 
 	public function __construct() {
         $this->db = \Config\Database::connect();
-		$this->session = \Config\Services::session();
-        $this->session->start();
         $this->configuraciones = new ConfiguracionModel();
         $this->categorias = new CategoriasModel();
         $this->recetas = new RecetasModel();
@@ -55,12 +53,13 @@ class Home extends BaseController {
 	}
 
 	public function filtrarRecetas() {
+        $busqueda = $this->request->getPost('busqueda');
         $categoria = $this->request->getPost('categoria');
         $pagina = $this->request->getPost('pagina');
-        $cantidad = $this->cantidadFiltradoRecetas($categoria);
+        $cantidad = $this->cantidadFiltradoRecetas($busqueda, $categoria);
         $output = array(
             'botonesFiltroRecetas' => $this->generarBotonesFiltroRecetas($categoria),
-            'resultadosFiltroRecetas' => $this->resultadoFiltroRecetas($categoria, $pagina),
+            'resultadosFiltroRecetas' => $this->resultadoFiltroRecetas($busqueda, $categoria, $pagina),
             'paginasFiltroRecetas' => $this->generarBotonesPaginacion($cantidad, $pagina)
         );
         echo json_encode($output);
@@ -70,7 +69,8 @@ class Home extends BaseController {
 		$output = '<div class="row">
 			<div class="col-12"><h2>Categorías</h2></div>
 		</div>
-		<div class="row wow zoomIn">';
+		<div class="row">';
+
         if (!$cat) $output .= '<input id="txtCategoria" type="hidden">';
         else $output .= '<input id="txtCategoria" value="'.$cat.'" type="hidden">';
 		$categoriass = $this->categorias->orderBy('NombreCategoria', 'ASC')->findAll();
@@ -86,7 +86,7 @@ class Home extends BaseController {
 			$output .= '<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
 				<a onclick="'.$botonCategoria.'" href="#">
 					<div class="'.$colorCategoria.' text-center">
-						<img src="'.$categoria['IconoCategoria'].'" alt="'.$categoria['NombreCategoria'].'" />
+						<img src="'.base_url().$categoria['IconoCategoria'].'" alt="'.$categoria['NombreCategoria'].'" />
 						<br />'.$categoria['NombreCategoria'].'
 					</div>
 				</a>
@@ -94,7 +94,7 @@ class Home extends BaseController {
 		}
         $output .= '</div>';
 
-		$output .= '<div class="row wow zoomIn">
+		$output .= '<div class="row">
 			<div class="col-12 text-center show-all">
 				<a onclick="limpiarTodo();" href="#"><div class="category-item text-center">
             		<i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
@@ -106,24 +106,24 @@ class Home extends BaseController {
 		return $output;
     }
 
-    public function consultaFiltradoRecetas($categoria) {
+    public function consultaFiltradoRecetas($busqueda, $categoria) {
         $query = "SELECT * FROM recetas ";
         $query .= "LEFT JOIN categorias ON recetas.Categoria = categorias.IdCategoria ";
-        $query .= "WHERE recetas.IdReceta > 0 ";
+        $query .= "WHERE recetas.NombreReceta LIKE '%".$busqueda."%' ";
         if ($categoria) $query .= "AND recetas.Categoria = ".$categoria." ";
         $query .= "GROUP BY recetas.IdReceta ";
 		$query .= "ORDER BY recetas.NombreReceta ASC ";
         return $query;
     }
 
-	function cantidadFiltradoRecetas($categoria) {
-        $query = $this->consultaFiltradoRecetas($categoria);
+	function cantidadFiltradoRecetas($busqueda, $categoria) {
+        $query = $this->consultaFiltradoRecetas($busqueda, $categoria);
         $data = $this->db->query($query);
         return $data->getNumRows();
     }
 
-    public function resultadoFiltroRecetas($categoria, $pagina) {
-        $query = $this->consultaFiltradoRecetas($categoria);
+    public function resultadoFiltroRecetas($busqueda, $categoria, $pagina) {
+        $query = $this->consultaFiltradoRecetas($busqueda, $categoria);
         if ($pagina) {
             $fin = $pagina*9;
             $inicio = $fin-9;
@@ -136,7 +136,7 @@ class Home extends BaseController {
 				$output .= '<div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
 					<div class="recipe-item text-center">
 						<a href="'.site_url('home/receta/'.$receta['IdReceta']).'">
-							<img src="'.$receta['FotoReceta'].'" alt="'.$receta['NombreReceta'].'" />
+							<img src="'.base_url().$receta['FotoReceta'].'" alt="'.$receta['NombreReceta'].'" />
 							<br /><h3>'.$receta['NombreReceta'].'</h3>
 						</a>
 					</div>
@@ -198,27 +198,4 @@ class Home extends BaseController {
 		];
 		return view('receta', $datos);
 	}
-
-	/*public function __construct() {
-		$this->usuarios = new UsuarioModel();
-        $this->session = \Config\Services::session();
-        $this->session->start();
-	}
-
-    public function LoginUsuarioAjax() {
-        if ($this->request->isAjax() && $this->request->getMethod() == "post") {
-			$username = $this->request->getPost('username');
-            $password = $this->request->getPost('password');
-            $usuario = $this->usuarios->where('Usuario', $username)->first();
-            if (!$usuario['Usuario']) return "no_existe";
-            if ($usuario['Contrasena'] <> $password) return "incorrecto";
-            $this->session->set($usuario);
-            return "ok";
-        } else return "error";
-    }
-
-    public function desconectar() {
-        $this->session->destroy();
-        return redirect()->to(base_url());
-    }*/
 }

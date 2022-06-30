@@ -2,6 +2,7 @@ var site_url = $('.site_url').val();
 filtrarRecetas();
 
 function filtrarRecetas() {
+    let busqueda = $('.txtBusqueda').val();
     let categoria = $('#txtCategoria').val();
     let pagina = $('#txtPagina').val();
 
@@ -11,6 +12,7 @@ function filtrarRecetas() {
         method: "POST",
         dataType: 'json',
         data: {
+            busqueda: busqueda,
             categoria: categoria,
             pagina: pagina
         },
@@ -18,12 +20,13 @@ function filtrarRecetas() {
             $('.botonesFiltroRecetas').html(data.botonesFiltroRecetas);
             $('.resultadosFiltroRecetas').html(data.resultadosFiltroRecetas);
             $('.paginasFiltroRecetas').html(data.paginasFiltroRecetas);
-            $('#txtBusqueda').focus();
+            $('.txtBusqueda').focus();
         }
     })
 }
 
 function limpiarTodo() {
+    $('.txtBusqueda').val("");
     $('#txtCategoria').val("");
     $('#txtPagina').val("");
     filtrarRecetas();

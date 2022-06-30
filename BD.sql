@@ -30,7 +30,7 @@ CREATE TABLE Recetas (
 CREATE TABLE Ingredientes (
     IdIngrediente bigint NOT NULL,
     NombreIngrediente varchar(200) NOT NULL,
-    Cantidad int NOT NULL,
+    Cantidad float NOT NULL,
     UnidadMedida varchar(50),
     Receta bigint NOT NULL,
     PRIMARY KEY (IdIngrediente),
